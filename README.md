@@ -1,7 +1,7 @@
 # JobsBot - becase searching for a job is a job
 
-Jobs.bg is the biggest jobs board in Bulgaria. As one of the many 
-services, it provides a new job offers notification service by email. 
+Jobs.bg is the biggest jobs board in Bulgaria. One of the many 
+services it provides is a new job offers notification by email. 
 Well, it actually informs you about the new job offers from yesterday.
 There is no immediate notification when a new job offer is posted.
 
