@@ -78,11 +78,11 @@ class Scraper {
     private function _sendMessage() {
 
         $date = new \DateTime();
-        $date->sub(new \DateInterval('PT10M'));
-        $before10 = $date->format('Y-m-d H:i:s');
+        $date->sub(new \DateInterval('PT5M'));
+        $before5 = $date->format('Y-m-d H:i:s');
 
-        $query = $this->db->prepare("SELECT * FROM jobs where created_at > :before10 ORDER BY id desc");
-        $query->execute(['before10' => $before10]);
+        $query = $this->db->prepare("SELECT * FROM jobs where created_at > :before5 ORDER BY id desc");
+        $query->execute(['before5' => $before5]);
 
         $jobs = $query->fetchAll(\PDO::FETCH_ASSOC);
         
