@@ -1,0 +1,11 @@
+{
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Toxic\\Jobs\\": "lib/Toxic/Jobs"
+        }
+    }
+}
